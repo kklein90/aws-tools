@@ -10,7 +10,7 @@ def am_i_on_aws():
     metadata_url = "http://169.254.169.254/latest/api/token"
     http_headers = { 'X-aws-ec2-metadata-token-ttl-seconds': "600", "content-type": "application/json"}
     try:
-        token = requests.put(metadata_url, headers=http_headers, timeout=2, allow_redirects=True)
+        token = requests.put(metadata_url, headers=http_headers, timeout=1, allow_redirects=True)
     except requests.exceptions.ConnectTimeout as e:
         return 1
     return token.text
