@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: clientsessionauth
+Version: 0.1.0
+Summary: Get boto3 client depending on where you're at.
+Author: kklein

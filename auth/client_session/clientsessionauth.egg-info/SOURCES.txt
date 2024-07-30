@@ -1,0 +1,9 @@
+README.md
+setup.py
+clientsessionauth/__init__.py
+clientsessionauth/session_auth.py
+clientsessionauth.egg-info/PKG-INFO
+clientsessionauth.egg-info/SOURCES.txt
+clientsessionauth.egg-info/dependency_links.txt
+clientsessionauth.egg-info/requires.txt
+clientsessionauth.egg-info/top_level.txt
