@@ -1,0 +1,6 @@
+boto3
+slack
+slackclient
+os
+argparse
+json
